@@ -196,6 +196,8 @@ main{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .dest-img-container {
@@ -206,11 +208,15 @@ main{
     gap: 10px;
     
 }  
-
+/* .grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-7 {
+    width: auto;
+    height: auto;
+} */
 
  .dest-img-container img {
     width: 100%;
     object-fit: cover;
+   
     
 } 
 .country {
