@@ -253,7 +253,7 @@ main{
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
-   ,margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 .card-header {
     margin-top: 10px;
@@ -315,7 +315,91 @@ main{
     grid-column: 4/span 6;
     grid-row: 2/span 1;
 }
+/* Extra section */
+ .extra-content h3 {
+    margin-top: 60px;
+    text-align: center;
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
 
+ }
+
+ .extra-content p {
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 100px;
+   
+}
+.extra-img-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.extra-img {
+   
+    width: 70%;
+    height: 500px;
+    
+}
+.extra-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+    /* perfect place  */
+   #perfect-place {
+    margin-top: 120px;
+   }
+
+/* Footer css */
+footer {
+    padding-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-bottom: 100px;
+
+}
+.footer-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-p {
+    text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    
+    
+ }
+
+ .f-icon img{
+    width: 40px;
+    height: 40px;
+ }
+ .f-icon-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+ }
+ .f-line {
+    
+    margin-top: 50px;
+   
+    background: rgba(19, 19, 24, 0.10);
+    width: 50%; 
+    border: 0.2px solid #ccc;
+    margin: 0 auto; 
+ }
 
 
 
