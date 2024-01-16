@@ -49,16 +49,19 @@
         /* border: 1px solid tomato; */
         padding-left: 20px;
         padding-top: 20px;
-
-     
-        
-
     }
+
     .input-class {
         width: 250px;
       
         /* border: 1px solid tomato; */
        
+    }
+    .form-div input {
+        padding-left: 12px;
+    }
+    .form-div select {
+        padding-left: 12px;
     }
 
     /* Popular tour section */
@@ -225,6 +228,18 @@
     object-fit: cover; 
     border-radius: 10px;
 }
+
+/* Newsletter section  */
+.new-container {
+    margin-top: 70px;
+   flex-direction: column;
+    gap: 30px;
+   
+   }
+
+  .new-img img{
+    width: 100%;
+  }
    /* footer */
    .footer-p {
     text-align: center;
